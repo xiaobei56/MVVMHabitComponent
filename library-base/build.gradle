@@ -32,6 +32,7 @@ dependencies {
     api fileTree(include: ['*.jar'], dir: 'libs')
     //公用的support相关库在base中依赖
     api rootProject.ext.support["design"]
+
     api rootProject.ext.support["appcompat-v7"]
     //公用资源在base中依赖
     api project(':library-res')
